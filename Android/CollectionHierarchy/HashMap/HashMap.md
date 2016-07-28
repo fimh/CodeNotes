@@ -38,7 +38,7 @@ Android版本的实现和JDK版本的确实不一样，不过核心思想与设�
 最后一个是DEFAULT_LOAD_FACTOR=.75F，文档中说本实现中是忽略掉load factor，但是因为API中有提及，所以代码中不能完全删掉。
 
 #### 成员变量
-成员变量分为2类，package可见于私有，但是它们都不参加序列化(都被transient所修饰)。
+成员变量分为2类，package可见和private，但是它们都不参加序列化(都被transient所修饰)。
 
 ##### package可见
 `table:HashMapEntry<K, V>[]`
