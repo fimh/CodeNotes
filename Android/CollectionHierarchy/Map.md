@@ -1,7 +1,8 @@
 # Map
-Android Version: 22
-Time: 2016/07/09
-Tag: Finished
+
+Android Version: 22  
+Time: 2016/07/09  
+Tag: Finished  
 
 ## 分析
 Map<K, V>接口是集合框架中最常见的一种数据结构，在各种语言中都会用到。
@@ -53,5 +54,6 @@ Map自身定义了14个方法，因为它是一个数据容器，我们可以按
 
 ## ~~TODO~~
 1. ~~values()方法返回的是另外一个接口Collection，我们以后再详细研究。~~
-> Collection接口是集合框架的根，定义了数据集合的最基本的操作。
-	具体见Collection代码分析。
+
+	> Collection接口是集合框架的根，定义了数据集合的最基本的操作。  
+	> 具体见Collection代码分析。
