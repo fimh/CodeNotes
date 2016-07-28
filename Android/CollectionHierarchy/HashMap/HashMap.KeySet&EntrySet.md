@@ -67,7 +67,7 @@ HashMap.KeySet和HashMap.EntrySet这两个类是sibling关系。
 
 > contains方法类似，不过最后调用的是HashMap.removeMapping(key:K, value:V)。
 
-## TODO
+## ~~TODO~~
 1. ~~研究HashMap.HashIterator的实现，了解迭代器是怎么工作的(并且也能知道HashMap.modCount的实际作用)~~
 
 	> 具体见HashMap.HashIterator的代码分析。
