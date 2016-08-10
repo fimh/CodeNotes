@@ -7,7 +7,8 @@ Tag: TODO 3
 ## 分析
 Collection接口是集合框架中的根 - 它定义了数据集合的操作和行为。
 
-任何直接或者间接实现Collection接口的类至少要有两个构造函数：
+任何直接或者间接实现Collection接口的类至少要有两个构造函数： 
+
 `constructor()`
 
 > 创建空集合
