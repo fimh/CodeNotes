@@ -18,6 +18,7 @@ Queue接口继承自Collection接口，这个接口自己定义了6个方法。
 * Create/Update:
 	- add(e:E):boolean
 	- offer(e:E):boolean
+
 		> 两者的区别在于抛异常上。
 		> 
 		> 当Queue为容量限制的对象：
@@ -30,6 +31,7 @@ Queue接口继承自Collection接口，这个接口自己定义了6个方法。
 	- 取数据:
 		- element():E
 		- peek():E
+
 		> 这两个方法会返回队列的头部，但是不会将其删除。
 		>
 		> 区别在于，如果队列为空：
@@ -39,6 +41,7 @@ Queue接口继承自Collection接口，这个接口自己定义了6个方法。
 * Delete:
 	- remove():E
 	- poll():E
+
 		> 这两个方法都是删除队列的头部，并且会将其返回。
 		> 
 		> 这两个方法的区别于上一组一样(`element`/`peek`)：
