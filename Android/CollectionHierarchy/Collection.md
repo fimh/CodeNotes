@@ -76,12 +76,12 @@ java.util包下面的类必须要这么做。
 3. 集合框架内都有哪些数据类型，它们之间的关系是什么？
 
 	> 数据类型有：
-	>> 接口：Set, List, Map, Queue, Deque, Enumeration, SortedMap, SortedSet
-	>> 实现Set的类：EnumSet, HashSet, LinkedHashSet, TreeSet
-	>> 实现List的类：ArrayList, LinkedList, Vector, Stack
-	>> 实现Map的类：HashMap, LinkedHash, ArrayMap, EnumMap, Hashtable, TreeMap, WeakHashMap
-	>> 实现Queue的类：ArrayDeque, LinkedList, PriorityQueue
-	>> 实现Deque的类：ArrayDeque, LinkedList
-	>> 实现Enumeration：StringTokenizer
-	>> 实现SortedMap的类：TreeMap
-	>> 实现SortedSet的类：TreeSet
+	>> 接口：Set, List, Map, Queue, Deque, Enumeration, SortedMap, SortedSet  
+	>> 实现Set的类：EnumSet, HashSet, LinkedHashSet, TreeSet  
+	>> 实现List的类：ArrayList, LinkedList, Vector, Stack  
+	>> 实现Map的类：HashMap, LinkedHash, ArrayMap, EnumMap, Hashtable, TreeMap, WeakHashMap  
+	>> 实现Queue的类：ArrayDeque, LinkedList, PriorityQueue  
+	>> 实现Deque的类：ArrayDeque, LinkedList  
+	>> 实现Enumeration：StringTokenizer  
+	>> 实现SortedMap的类：TreeMap  
+	>> 实现SortedSet的类：TreeSet  
