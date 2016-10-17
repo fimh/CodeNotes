@@ -29,7 +29,7 @@ Map自身定义了14个方法，因为它是一个数据容器，我们可以按
 		- containsKey(key:Object):boolean
 		- containsValue(key:Object):boolean
 		- isEmpty():boolean
-		- size():boolean
+		- size():int
 * Delete:
 	- remove(key:Object):V
 	- clear():void
